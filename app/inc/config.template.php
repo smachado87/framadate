@@ -88,7 +88,7 @@ const TIME_EDIT_LINK_EMAIL = 60;
 // Config
 $config = [
     /* general config */
-    'use_smtp' => true,                     // use email for polls creation/modification/responses notification
+    'use_smtp' => false,                     // use email for polls creation/modification/responses notification
     'tracking_code' => '',                  // add HTML code to every page, useful for tools like Piwik
     /* home */
     'show_what_is_that' => true,            // display "how to use" section
